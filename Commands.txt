@@ -1,0 +1,14 @@
+# Command to create a new Vite project with React template
+npm create vite@latest ./ -- --template react
+
+# Install Tailwind CSS as a development dependency
+npm install -D tailwindcss
+
+# Initialize Tailwind CSS configuration
+npx tailwindcss init
+
+# Install necessary packages for 3D rendering and animations in React
+npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath
+
+# Install additional packages for UI components and animations
+npm install react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
